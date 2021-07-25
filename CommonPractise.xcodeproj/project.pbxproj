@@ -13,6 +13,10 @@
 		69868B6426AD1AF300024D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69868B6226AD1AF300024D61 /* Main.storyboard */; };
 		69868B6626AD1AF400024D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69868B6526AD1AF400024D61 /* Assets.xcassets */; };
 		69868B6926AD1AF400024D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69868B6726AD1AF400024D61 /* LaunchScreen.storyboard */; };
+		69868B7226AD1B3300024D61 /* StringToIntVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69868B7126AD1B3300024D61 /* StringToIntVC.swift */; };
+		69868B7426AD1B8200024D61 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69868B7326AD1B8200024D61 /* Common.swift */; };
+		69868B7626AD1BD800024D61 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69868B7526AD1BD800024D61 /* extensions.swift */; };
+		69868B7826AD5EE200024D61 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 69868B7726AD5EE200024D61 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		69868B6526AD1AF400024D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69868B6826AD1AF400024D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69868B6A26AD1AF400024D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69868B7126AD1B3300024D61 /* StringToIntVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToIntVC.swift; sourceTree = "<group>"; };
+		69868B7326AD1B8200024D61 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		69868B7526AD1BD800024D61 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		69868B7726AD5EE200024D61 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		69868B5026AD1AF300024D61 = {
 			isa = PBXGroup;
 			children = (
+				69868B7726AD5EE200024D61 /* .gitignore */,
 				69868B5B26AD1AF300024D61 /* CommonPractise */,
 				69868B5A26AD1AF300024D61 /* Products */,
 			);
@@ -56,6 +65,7 @@
 		69868B5B26AD1AF300024D61 /* CommonPractise */ = {
 			isa = PBXGroup;
 			children = (
+				69868B7026AD1B0200024D61 /* 类型转换 */,
 				69868B5C26AD1AF300024D61 /* AppDelegate.swift */,
 				69868B5E26AD1AF300024D61 /* SceneDelegate.swift */,
 				69868B6026AD1AF300024D61 /* ViewController.swift */,
@@ -65,6 +75,16 @@
 				69868B6A26AD1AF400024D61 /* Info.plist */,
 			);
 			path = CommonPractise;
+			sourceTree = "<group>";
+		};
+		69868B7026AD1B0200024D61 /* 类型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				69868B7126AD1B3300024D61 /* StringToIntVC.swift */,
+				69868B7326AD1B8200024D61 /* Common.swift */,
+				69868B7526AD1BD800024D61 /* extensions.swift */,
+			);
+			path = "类型转换";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69868B7826AD5EE200024D61 /* .gitignore in Resources */,
 				69868B6926AD1AF400024D61 /* LaunchScreen.storyboard in Resources */,
 				69868B6626AD1AF400024D61 /* Assets.xcassets in Resources */,
 				69868B6426AD1AF300024D61 /* Main.storyboard in Resources */,
@@ -137,9 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69868B7226AD1B3300024D61 /* StringToIntVC.swift in Sources */,
 				69868B6126AD1AF300024D61 /* ViewController.swift in Sources */,
 				69868B5D26AD1AF300024D61 /* AppDelegate.swift in Sources */,
+				69868B7426AD1B8200024D61 /* Common.swift in Sources */,
 				69868B5F26AD1AF300024D61 /* SceneDelegate.swift in Sources */,
+				69868B7626AD1BD800024D61 /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
